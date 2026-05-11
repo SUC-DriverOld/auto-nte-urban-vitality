@@ -1,0 +1,15 @@
+[project]
+name = "auto-nte"
+version = "0.1.0"
+description = "Neverness to Everness urban vitality automatic tool driven by pyautogui"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyautogui>=0.9.54",
+    "psutil>=5.9.8",
+]
+
+[dependency-groups]
+dev = [
+    "nuitka>=2.7.8",
+]
